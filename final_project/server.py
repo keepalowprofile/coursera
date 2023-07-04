@@ -5,6 +5,7 @@ from machinetranslation.translator import french_to_english
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
+app=Flask(__name__,template_folder='Templates')
 
 @app.route('/')
 def index():
