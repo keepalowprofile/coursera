@@ -1,6 +1,7 @@
 import unittest
 from unittest.mock import patch
-from translator import english_to_french, french_to_english
+import machinetranslation
+from machinetranslation.translator import english_to_french, french_to_english
 
 class TranslatorTests(unittest.TestCase):
 
